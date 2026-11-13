@@ -33,7 +33,7 @@ Trap representations are a little rarer, as they require the uninitialized value
 Beyond how the computer's memory is set up on the hardware, there are also errors due to the internal software. For example, the way a specific memory allocator allocates memory may end up giving rise to an error. This can yield bugs like Heisenbugs, which are dependent on the memory layout at the specific moment a line of code runs. Furthermore, these bugs are hard to debug because adding any additional lines of code (like a `printf` line to show a specific variable's value) can adjust the memory just enough that the bug disappears.
 
 
-Additional Resources Utilized:
+## Additional Resources Utilized:
 https://nordvpn.com/blog/what-is-heartbleed-bug/?srsltid=AYCX9vIk_XZEBQk2aa8MUgrrVD6LFuJIxB9Pa36SBn7qf5SWcyCu6Yy_
 
 https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html
